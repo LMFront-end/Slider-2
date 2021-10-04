@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="slide-contenedor">
+        <div class="miSlider fade">
+            <img src="./img/1 (1)piñas.jpeg" alt="">
+        </div>
+        <div class="miSlider">
+            <img src="./img/1 (2)flores.jpeg" alt="">
+        </div>
+        <div class="miSlider">
+            <img src="./img/1 (3)estante.jpeg" alt="">
+        </div>
+        <div class="miSlider">
+            <img src="./img/1 (4)meson.jpeg" alt="">
+        </div>
+        <div class="direcciones">
+            <a href="#" class="siguiente" onclick="avanzaSlide(-1)">&#10094;</a>
+            <a href="#" class="siguiente" onclick="avanzaSlide(1)">&#10095;</a>
+        </div>
+
+        <div class="barras">
+            <span class="barra active" onclick="posicionSlide(1)"></span>
+            <span class="barra" onclick="posicionSlide(2)"></span>
+            <span class="barra" onclick="posicionSlide(3)"></span>
+            <span class="barra" onclick="posicionSlide(4)"></span>
+        </div>
+    </div>
+
+    <script src="./js/app.js"></script>
+
+</body>
+
+</html>
